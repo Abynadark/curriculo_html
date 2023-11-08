@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-image: url(assets/fundotec2000.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#container{
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    height: 790px;
+
+    flex-direction: column;
+    /*flex-direction: row;
+    flex-wrap: wrap
+    flex-flow: row wrap;*/
+}
+.item{
+    width: 20%; 
+    margin: 10px;
+    padding: 10px;
+ }
+
+#conteudos{
+    padding: 100px;
+    margin-top: 75px ;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    background-color: #1643A0;
+    align-self: flex-end;
+    margin: 20px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+li{
+    margin: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.clicado{
+    color: gray;
+    text-decoration: underline;
+}
